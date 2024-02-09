@@ -103,10 +103,13 @@ textarea {
       font-family: 'Open Sans', sans-serif;
       font-size: 1rem;
       text-align: left;
+      color: #e2e3ed;
     }
 
     ul,ol {
       list-style: none;
+      margin: 0;
+      padding: 0;
     } 
 
     a {
@@ -116,12 +119,15 @@ textarea {
 
     h2 {
       font-family: 'Poppins', sans-serif;
-      font-size: 1.875em
+      font-size: 1.875em;
+      font-weight: 500;
     }
 
     h3, h4 {
       font-family: 'Poppins', sans-serif;
-      font-size: 1.125em
+      font-size: 1.125em;
+      font-weight: 500;
+      margin: 20px 0;
 
     }
 
@@ -129,15 +135,7 @@ textarea {
       font-size: 0.875em;
       line-height: 1.285em;
     }
-
-    img {
-
-    }
-
-    figure {
-
-    }
-
+    
     address {
       font-style: normal;
     }
@@ -151,6 +149,7 @@ textarea {
     display: flex;
     justify-content: center;
     padding: 15px 0;
+    background-color: #202322;
   }
 
   header .content-wrapper {
@@ -164,93 +163,21 @@ textarea {
   .header-divider {
     width: 100%;
     height: 1px;
+    background-color: #3a3a3a;
   }
 
   header nav {
     width: 60%;
+    font-weight:700;
+    font-size: 1.125em;
   }
 
   header ul nav {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    font-size: 1.125em;
   }
-
-  .hero-area {
-    display: flex;
-    justify-content: center;
-  }
-
-aside {
-  display: flex;
-  justify-content: center;
-}
-
-.features {
-  display: flex;
-  justify-content: center;
-}
-
-.features h2 {
-  margin-bottom: 60px;
-}
-
-.features article {
-  width: 63%;
-  margin: 30px 0;
-}
-
-.features .features-items {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  flex-flow: row wrap;
-}
-
-features p {
-  margin: 0;
-}
-
-.reviews {
-  display: flex;
-  justify-content: center;
-}
-
-.reviews h2 {
-  margin-bottom: 40px;
-}
-
-.reviews h3 {
-  width: 55%;
-}
-
-/*-----About page --------*/
-.mission {
-  display: flex;
-  justify-content: center;
-}
-
-.contact-section {
-  display: flex;
-  justify-content: center;
-}
-
-.contact-content {
-  margin: 0;
-}
-
-.faq {
-  display: flex;
-  justify-content: center;
-}
-
-.faq .content-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-flow: row wrap;
-  margin: 50px 0 0 0;
-}
 
   footer {
     display: flex;
@@ -283,9 +210,142 @@ features p {
     align-items: center;
   }
 
+
   footer .copyright {
     margin: 20px 0;
   }
+
+  /* Mobile Styles */
+
+  .hero-area {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-area h1 {
+    font-size: 2.25em;
+    font-weight: 500;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    line-height: 1.2;
+  }
+
+aside {
+  display: flex;
+  justify-content: center;
+  background-color: #527158;
+}
+
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+}
+
+.features h2 {
+  margin-bottom: 60px;
+}
+
+.features article {
+  width: 63%;
+  margin: 30px 0;
+}
+
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-flow: row wrap;
+}
+
+features p {
+  margin: 0;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  background-color: #2a423a;
+}
+
+.reviews h2 {
+  margin-bottom: 40px;
+}
+
+.reviews h3 {
+  width: 55%;
+}
+
+/*-----About page --------*/
+.mission {
+  display: flex;
+  justify-content: center;
+  background-color: #527158;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  background-color: #2a423a;
+}
+
+.contact-content {
+  margin: 0;
+  background-color: #2a423a;
+}
+
+.faq {
+  display: flex;
+  justify-content: center;
+  background-color: #527158;
+}
+
+.faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  margin: 50px 0 0 0;
+}
+
+.faq h2 {
+  margin-bottom: 40px;
+  line-height: 1;
+}
+
+  .faq-content {
+    margin-bottom: 50px;
+  }
+  
+  .faq-content h4 {
+    line-height: 1.333;
+  }
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
