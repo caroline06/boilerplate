@@ -135,7 +135,7 @@ textarea {
       font-size: 0.875em;
       line-height: 1.285em;
     }
-    
+
     address {
       font-style: normal;
     }
@@ -143,6 +143,14 @@ textarea {
     .content-wrapper {
       width: 90%;
       margin: 50px 0;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    figure {
+      margin: 0;
     }
   /*----------Base Header - Footer Styles -------------------- */
   header {
@@ -158,6 +166,10 @@ textarea {
     align-items: center;
     flex-flow: row-wrap;
     margin: 0;
+  }
+
+  header figure{
+    width: 60%;
   }
 
   .header-divider {
@@ -220,6 +232,10 @@ textarea {
   .hero-area {
     display: flex;
     justify-content: center;
+    background: url(../img/unplugged-retreat.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
   }
 
   .hero-area h1 {
@@ -264,6 +280,9 @@ input[type=button] {
 .features {
   display: flex;
   justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background: url(../img/unplugged-retreat-features.jpg);
 }
 
 .features h2 {
@@ -452,6 +471,10 @@ features p {
       width: 100%;
       justify-content: space-between;
   }
+
+   header figure {
+    width: 30%;
+   }
 
   header nav {
     width: 20%;
