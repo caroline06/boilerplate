@@ -586,6 +586,10 @@ features p {
     align-items: flex-start;
    }
 
+   .map-figure {
+    padding-bottom: 45.5%;
+   }
+
 
    /* FAQ Page */
 
@@ -646,6 +650,9 @@ features p {
           width: 95%;
       }
 
+      .map-figure {
+        padding-bottom: 37.5%;
+      }
       /* FAQ Page */
 
       .faq h2 {
