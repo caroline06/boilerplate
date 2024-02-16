@@ -378,6 +378,10 @@ features p {
   left: 0;
 }
 
+.contact-content p {
+  margin: 0;
+}
+
 /*FAQ page */
 
 .faq {
@@ -762,6 +766,12 @@ features p {
 
       .contact-content h4 {
         font-size: 1.875em;
+      }
+
+      .contact-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
       }
       /* FAQ Page */
 
