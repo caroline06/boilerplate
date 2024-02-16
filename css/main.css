@@ -569,6 +569,11 @@ features p {
     width: 100%;
   }
 
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
+
   /* About Page */
 
   .mission-content {
@@ -643,6 +648,10 @@ features p {
 
     .features articles {
       flex-basis: 33%;
+    }
+
+    .features i {
+      margin-bottom: 30px;
     }
 
     /*Reviews*/
